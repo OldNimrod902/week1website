@@ -31,6 +31,15 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     margin: 5px 5px;
+    
+}
+
+.back-button {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: rgb(96, 96, 96);
+    min-width: 300px;
 }
 
 button:hover {
@@ -71,4 +80,9 @@ h2 {
 img {
     display: block;
     margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
 }
