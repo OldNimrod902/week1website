@@ -19,6 +19,15 @@
     justify-content: center;
 }
 
+.location button{
+    height: auto;
+    width: auto;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    padding: 5px;
+    text-transform: none;
+    cursor: default; 
+}
 
 button {
     height: auto;
