@@ -20,6 +20,19 @@
     flex-wrap: wrap;
 }
 
+.map-images img{
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.map-images img:hover{
+    transform: scale(1.05);
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
 .map-title {
     display: flex;
     justify-content: center;
