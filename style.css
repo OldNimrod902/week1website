@@ -29,6 +29,12 @@
     cursor: default; 
 }
 
+.chapter-text {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+
 button {
     height: auto;
     width: auto;
@@ -109,6 +115,7 @@ h2 {
 img {
     display: block;
     margin: auto;
+    max-width: 85vw;
 }
 
 footer {
