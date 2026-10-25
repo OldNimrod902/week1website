@@ -77,6 +77,17 @@ button {
     padding: 5px;
 }
 
+.nav-button {
+    padding: 5px;
+    background-color: rgba(74, 119, 137, 0.537);
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(5, 53, 148);
+    font-weight: bold;
+    font-style: normal;
+}
+
 .current-button {
     border-color: rgb(240, 124, 0);
     border-width: 3px;
