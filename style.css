@@ -108,6 +108,12 @@ button {
     background-image: linear-gradient(to bottom, rgb(220, 240, 0), rgb(232, 169, 10));
 }
 
+#reload {
+    background-image: linear-gradient(to bottom right, rgb(111, 125, 255), rgb(80, 55, 244));
+    border-color: rgb(52, 52, 255);
+    color: white;
+}
+
 button:hover {
     color: black;
     background-color: white;
