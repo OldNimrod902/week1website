@@ -42,27 +42,32 @@
 .location button{
     height: auto;
     width: auto;
-    background-color: rgb(97, 97, 97);
+    background-color: rgba(97, 97, 97, 0.564);
     color: white;
     padding: 5px;
-    text-transform: none;
-    cursor: default; 
+    cursor: default;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.location button:hover {
+    transform: scale(1.02);
 }
 
 .chapter-text {
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 700;
     font-style: normal;
 }
 
 button {
     height: auto;
     width: auto;
-    background-color: rgb(255, 201, 25);
+    background-color: rgb(247, 255, 25);
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Archivo', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: 900;
     border-radius: 10px;
     text-align: center;
     padding: 10px; 
@@ -97,7 +102,7 @@ button {
     border-width: 3px;
     border-style: solid;
     border-color: rgb(5, 53, 148);
-    font-weight: bold;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -105,7 +110,7 @@ button {
     border-color: rgb(240, 124, 0);
     border-width: 3px;
     border-style: solid;
-    background-image: linear-gradient(to bottom, rgb(220, 240, 0), rgb(232, 169, 10));
+    background-image: linear-gradient(to bottom, rgb(247, 255, 25), rgb(232, 169, 10));
 }
 
 #reload {
@@ -124,7 +129,7 @@ body {
     background-color: rgb(4, 5, 49);
     background-image: url("background.png");
     color: rgb(208, 208, 208);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Archivo', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
 }
 
@@ -153,6 +158,10 @@ img {
     display: block;
     margin: auto;
     max-width: 85vw;
+}
+
+b {
+    color: white;
 }
 
 footer {
