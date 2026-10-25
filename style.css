@@ -13,7 +13,19 @@
     margin: 30px auto;
 }
 
+#coming-soon {
+    background-image: linear-gradient(to bottom right, rgb(31, 29, 153), rgb(2, 0, 95));
+    border-color: yellow;
+}
+
 .map-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modes {
     display: flex;
     align-items: flex-start;
     justify-content: center;
