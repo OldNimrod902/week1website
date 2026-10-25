@@ -20,6 +20,12 @@
     flex-wrap: wrap;
 }
 
+.map-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .location button{
     height: auto;
     width: auto;
